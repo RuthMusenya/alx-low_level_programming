@@ -1,12 +1,16 @@
 #include <stdlib.h>
+
 #include <time.>
+
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Description: 'check if the number is positive or negative'
- * Retun: always 0
+ * main - Prints whether positive, zero or negative
+ * Retun: Always (Success)
  */
+
 int main(void)
+
 {
 	int n;
 
