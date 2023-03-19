@@ -3,16 +3,18 @@
 /**
  * main - entry point
  * Description: Print alfabets in lower case
- * Return: Always (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
-
 {
-	char c;
+char letter;
 
-	for (c = 'a' c <= 'z' c++);
-	putchar(c);
-	putchar('\n');
-	return (0);
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+putchar(letter);
+}
+putchar('\n');
+
+return (0);
 }
