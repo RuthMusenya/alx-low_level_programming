@@ -9,14 +9,17 @@
 int main(void)
 
 {
-	char c;
+	int n = 97;
+	int m = 65;
 
-	for (c = 'a');
-	for (c <= 'z');
-      	for (c++);
-
-	putchar(0);
+	while (n <= 122)
+	{
+		putchar(n);
+	}
+	while (m <= 90)
+	{
+		putchar(m);
+	}
 	putchar('\n');
 	return (0);
 }
-
