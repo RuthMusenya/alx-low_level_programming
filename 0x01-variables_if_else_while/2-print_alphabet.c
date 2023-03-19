@@ -9,17 +9,10 @@
 int main(void)
 
 {
-	int n = 97;
-	int m = 65;
+	char c;
 
-	while (n <= 122)
-	{
-		putchar(n);
-	}
-	while (m <= 90)
-	{
-		putchar(m);
-	}
+	for (c = 'a' c <= 'z' c++);
+	putchar(c);
 	putchar('\n');
 	return (0);
 }
