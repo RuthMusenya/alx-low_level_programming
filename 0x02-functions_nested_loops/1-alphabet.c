@@ -1,12 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * main - Entry Point
+ * Description: Print alphabets in lower case
  * Return: Always 0.
  */
+
 int main(void)
+
 {
-	print_alphabet();
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		if (alpha == 'q')
+			continue;
+		if (alpha == 'e')
+			continue;
+		putchar(alpha);
+	}
+	putchar('\n');
 	return (0);
 }
